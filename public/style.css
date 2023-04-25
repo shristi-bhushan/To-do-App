@@ -57,3 +57,49 @@ form.add-note button {
     cursor: pointer;
     outline: none;
 }
+
+footer {
+    position:absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100px;
+    height: 2 rem;
+}
+
+footer p {
+    color:rgb(50, 125, 178)
+}
+
+.note {
+    background: aliceblue;
+    border-radius: 7px;
+    box-shadow:  0 2px 5px rgb(255, 254, 255);
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.note p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: rgb(217, 7, 7);
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+}
